@@ -1,50 +1,49 @@
 import React, { useState, useEffect } from 'react';
 
+const projects = [
+  {
+    id: 1,
+    title: "Telegram for Zoho CRM",
+    description: "A Zoho CRM extension that connects Telegram with CRM and enables two-way message and alert flow.",
+    images: ["/zoho/tel1.jpeg", "/zoho/tel2.jpeg", "/zoho/tel3.jpeg"],
+    github: "https://github.com/PratyushSowrirajan/telegram-zoho-bott",
+    demo: "/zoho/help documentation.pdf",
+    tech: ["Zoho Sigma", "Node.js", "Telegram Bot API"]
+  },
+  {
+    id: 2,
+    title: "Project 2",
+    description: "Project description will go here...",
+    images: ["project2.jpg"],
+    github: "#",
+    demo: "#",
+    tech: ["Tech1", "Tech2", "Tech3"]
+  },
+  {
+    id: 3,
+    title: "Project 3",
+    description: "Project description will go here...",
+    images: ["project3.jpg"],
+    github: "#",
+    demo: "#",
+    tech: ["Tech1", "Tech2", "Tech3"]
+  },
+  {
+    id: 4,
+    title: "Project 4",
+    description: "Project description will go here...",
+    images: ["project4.jpg"],
+    github: "#",
+    demo: "#",
+    tech: ["Tech1", "Tech2", "Tech3"]
+  }
+];
+
 function Projects() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [imageIndexes, setImageIndexes] = useState({});
 
-  const projects = [
-    {
-      id: 1,
-      title: "Telegram for Zoho CRM",
-      description: "A Zoho CRM extension that connects Telegram with CRM and enables two-way message and alert flow.",
-      images: ["/zoho/tel1.jpeg", "/zoho/tel2.jpeg", "/zoho/tel3.jpeg"],
-      github: "https://github.com/PratyushSowrirajan/telegram-zoho-bott",
-      demo: "/zoho/help documentation.pdf",
-      tech: ["Zoho Sigma", "Node.js", "Telegram Bot API"]
-    },
-    {
-      id: 2,
-      title: "Project 2",
-      description: "Project description will go here...",
-      images: ["project2.jpg"],
-      github: "#",
-      demo: "#",
-      tech: ["Tech1", "Tech2", "Tech3"]
-    },
-    {
-      id: 3,
-      title: "Project 3",
-      description: "Project description will go here...",
-      images: ["project3.jpg"],
-      github: "#",
-      demo: "#",
-      tech: ["Tech1", "Tech2", "Tech3"]
-    },
-    {
-      id: 4,
-      title: "Project 4",
-      description: "Project description will go here...",
-      images: ["project4.jpg"],
-      github: "#",
-      demo: "#",
-      tech: ["Tech1", "Tech2", "Tech3"]
-    }
-  ];
-
   // Auto-rotate images within each project
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const interval = setInterval(() => {
       setImageIndexes(prev => {
