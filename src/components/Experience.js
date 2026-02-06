@@ -32,11 +32,11 @@ function Experience() {
             </div>
             <div className="timeline-images">
               <div className="company-logo">
-                <img src="Zoho_Corporation-Logo.wine.png" alt="Zoho Corporation Logo" />
+                <img src="zoho\Zoho_Corporation-Logo.wine.png" alt="Zoho Corporation Logo" />
               </div>
               <div className="experience-photos">
-                <img src="IMG1_ZOHO.jpeg" alt="Pratyush at Zoho Office" />
-                <img src="IMG2_ZOHO.jpeg" alt="Zoho Internship Experience" />
+                <img src="zoho\IMG1_ZOHO.jpeg" alt="Pratyush at Zoho Office" />
+                <img src="zoho\IMG2_ZOHO.jpeg" alt="Zoho Internship Experience" />
               </div>
             </div>
           </div>

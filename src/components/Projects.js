@@ -44,6 +44,7 @@ function Projects() {
   ];
 
   // Auto-rotate images within each project
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const interval = setInterval(() => {
       setImageIndexes(prev => {
