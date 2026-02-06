@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+// Projects data moved outside component to prevent ESLint dependency issues
 const projects = [
   {
     id: 1,
