@@ -1,53 +1,103 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 **Live Site:** [https://pratyush-web.vercel.app/](https://pratyush-web.vercel.app/)
 
-## Available Scripts
+A modern, responsive portfolio website showcasing my journey as a Computer Science Engineering student. Built with React and featuring dual theme modes, smooth animations, and an interactive UI.
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- **Dual Theme Toggle**: Switch between Dark and Beige modes
+- **Interactive Sections**: Home, About, Recognition, Education, Experience, Projects, Contact
+- **Recognition Highlights**:
+  - Smart India Hackathon 2025 Finalist
+  - IEEE SIGHT T4G Grant Recipient (USD 6,508)
+  - Published Indian Patent on Glaucoma Diagnosis System
+- **Artistic Design**: Fence effect overlay on profile image, gradient text effects
+- **Responsive Layout**: Fully optimized for mobile, tablet, and desktop
+- **Smooth Animations**: Typewriter effect, hover transitions, theme transitions
 
-Runs the app in the development mode.\
+## 🛠️ Tech Stack
+
+- **Frontend**: React 19.2.4
+- **Styling**: Pure CSS with CSS Variables for theming
+- **Icons**: Boxicons
+- **Deployment**: Vercel
+- **Version Control**: Git & GitHub
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── Home.js           # Landing section with typewriter effect
+│   ├── About.js          # About section with fence effect image
+│   ├── Recognition.js    # Achievement cards
+│   ├── Education.js      # Education timeline
+│   ├── Experience.js     # Work experience
+│   ├── Projects.js       # Portfolio projects
+│   ├── Contact.js        # Contact information
+│   └── ThemeToggle.js    # Theme switching component
+├── styles/
+│   └── index.css         # Global styles with theme variables
+└── App.js                # Main app component
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/PratyushSowrirajan/portfolio_web.git
+cd portfolio_web
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Build for Production
 
-### `npm test`
+```bash
+npm run build
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Builds the app for production to the `build` folder.
 
-### `npm run build`
+## 🎨 Themes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Dark Mode**: Modern dark theme with neon green accents (#A4D36F)
+- **Beige Mode**: Warm beige theme with natural green tones (#5a8f2f)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Theme preference is saved to localStorage for persistence across sessions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📧 Contact
 
-### `npm run eject`
+- **Email**: pratyushsowrirajan@gmail.com
+- **Phone**: +91 93848 43883
+- **Location**: Chennai, Tamil Nadu, India
+- **LinkedIn**: [linkedin.com/in/pratyushsowrirajan](https://linkedin.com/in/pratyushsowrirajan)
+- **GitHub**: [github.com/PratyushSowrirajan](https://github.com/PratyushSowrirajan)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📄 License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is open source and available for personal and educational use.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Built with ❤️ by Pratyush Sowrirajan**
 
 ### Analyzing the Bundle Size
 
