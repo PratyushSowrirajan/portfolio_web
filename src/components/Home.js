@@ -61,7 +61,7 @@ function Home() {
     e.preventDefault();
     // Use process.env.PUBLIC_URL for proper path resolution in React
     const link = document.createElement('a');
-    link.href = process.env.PUBLIC_URL + '/PratyushS_Resume.pdf';
+    link.href = process.env.PUBLIC_URL + '/resume/PratyushS_Resume.pdf';
     link.download = 'Pratyush_Sowrirajan_Resume.pdf';
     link.target = '_blank';
     document.body.appendChild(link);

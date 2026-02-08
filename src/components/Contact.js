@@ -12,31 +12,19 @@ function Contact() {
             <div className="contact-info-item">
               <i className="bx bx-envelope"></i>
               <h4>Email</h4>
-              <p>pratyush.sowrirajan@example.com</p>
+              <p>pratyushsowrirajan@gmail.com</p>
             </div>
             <div className="contact-info-item">
               <i className="bx bx-phone"></i>
               <h4>Phone</h4>
-              <p>+91 98765 43210</p>
+              <p>+91 93848 43883</p>
             </div>
             <div className="contact-info-item">
               <i className="bx bx-map"></i>
               <h4>Location</h4>
-              <p>India</p>
+              <p>Chennai, Tamil Nadu, India</p>
             </div>
           </div>
-
-          <form className="contact-form">
-            <div className="form-group">
-              <input type="text" placeholder="Your Name" required />
-              <input type="email" placeholder="Your Email" required />
-            </div>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit" className="btn contact-btn">
-              <span>Send Message</span>
-              <i className="bx bx-send"></i>
-            </button>
-          </form>
         </div>
       </div>
     </section>
